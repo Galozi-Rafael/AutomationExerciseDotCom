@@ -1,0 +1,6 @@
+{
+  "Name": "AutomationExerciseDotCom",
+  "ProjectType": "Process",
+  "Description": "Automatizar o site playground de e-commerce: https://automationexercise.com/",
+  "MainFile": "Main.xaml"
+}
