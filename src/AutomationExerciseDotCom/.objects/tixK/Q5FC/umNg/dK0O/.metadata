@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Create Account",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "dK0OkjGMP06FszC7fAAx1g",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/dK0OkjGMP06FszC7fAAx1g",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/umNgIPw6EkWwI0pwG1H-pA",
+  "Created": "2026-02-07T12:15:09.7758094Z",
+  "Updated": "2026-02-07T12:15:09.7758094Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

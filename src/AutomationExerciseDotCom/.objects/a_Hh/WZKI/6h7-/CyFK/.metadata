@@ -1,0 +1,14 @@
+﻿{
+  "Name": "automationexercise.com…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "CyFKrB0OSUCUGtMuOFhq2g",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/CyFKrB0OSUCUGtMuOFhq2g",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/6h7-mpo60UK3tp0ZGnr0sw",
+  "Created": "2026-02-07T11:41:48.5366006Z",
+  "Updated": "2026-02-07T11:41:48.5366006Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

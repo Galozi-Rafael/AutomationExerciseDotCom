@@ -106,11 +106,11 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OpenHome" sap:VirtualizedContainerService.HintSize="1281,1156" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenHome" sap:VirtualizedContainerService.HintSize="1281,1233" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="fase">
         <Variable.Default>
-          <Literal x:TypeArguments="x:String">OpenHome</Literal>
+          <Literal x:TypeArguments="x:String">Open Home</Literal>
         </Variable.Default>
       </Variable>
     </Sequence.Variables>
@@ -119,14 +119,15 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence - Open Home" sap:VirtualizedContainerService.HintSize="522,1133" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="Essa sequence será responsável por abrir a homepage e validar se ela realmente carregou.&#xD;&#xA;&#xD;&#xA;A URL e outros dados serão fornecidos via argumentos." DisplayName="Sequence - Open Home" sap:VirtualizedContainerService.HintSize="522,1210" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;[&quot; + in_tcId + &quot;] [INFO] [&quot; + fase + &quot;] START | runId=&quot; + in_runId + &quot; | url=&quot; + in_baseUrl]" />
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome Automation Exercise(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,875" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" IsIncognito="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" OutUiElement="[out_browser]" ScopeGuid="e3534467-a2bc-400e-870e-0dbfb58324c1" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome Automation Exercise(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,875" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" IsIncognito="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" OutUiElement="[out_browser]" ScopeGuid="e3534467-a2bc-400e-870e-0dbfb58324c1" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1FJr8AcCCk6Z5aM7x665DA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="165, 59, 1484, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Automation Exercise - Signup / Login - Google Chrome (Modo anôni*' role='pane' /&gt;&lt;ctrl name='Barra de endereço e de pesquisa' role='editable text' /&gt;" Guid="1bdf165b-64b2-4054-9187-6be33b495c61" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Automation Exercise - Signup / Login - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0881cad4c481973e2b0d152fc970abd1.png" xmlns="">0H8rR0oXeeEOpCQR_-jcwpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

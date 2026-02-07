@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Home  Products Cart Si…",
+  "Type": "Element",
+  "Id": "L12sVAhaSUutXsCLB5t_Dg",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/L12sVAhaSUutXsCLB5t_Dg",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/8IonXyk7M0-imwmclcH3vw",
+  "Created": "2026-02-07T11:48:50.7921553Z",
+  "Updated": "2026-02-07T11:48:50.7921553Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

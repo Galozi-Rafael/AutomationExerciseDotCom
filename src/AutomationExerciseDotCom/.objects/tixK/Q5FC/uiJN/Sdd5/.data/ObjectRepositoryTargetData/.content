@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ajuLQ-H440qTBmlaCfIsmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/account_created" DesignTimeRectangle="818, 361, 187, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='B' /&gt;" Guid="4e608fe1-06ff-4571-ab57-858d12bc377f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Account Created' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b820283ce275ab21364283a21a133ccc.png" xmlns="">0ndPcyUEz8kSVfU8pHbsTNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

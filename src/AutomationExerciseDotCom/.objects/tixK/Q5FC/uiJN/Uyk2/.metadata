@@ -1,0 +1,14 @@
+﻿{
+  "Name": "path",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "Uyk2U_lSVEKlFd8JUwnHyg",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/Uyk2U_lSVEKlFd8JUwnHyg",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/uiJNOwvy9UyEi_0xBDCsVw",
+  "Created": "2026-02-07T13:09:01.7634613Z",
+  "Updated": "2026-02-07T13:09:01.7634613Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

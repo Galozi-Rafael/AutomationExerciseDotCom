@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Enter Account Informati…",
+  "Type": "Element",
+  "Id": "tSWBzsVeSk2eAowIIahWKA",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/tSWBzsVeSk2eAowIIahWKA",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/umNgIPw6EkWwI0pwG1H-pA",
+  "Created": "2026-02-07T11:59:06.0655446Z",
+  "Updated": "2026-02-07T11:59:06.0655446Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

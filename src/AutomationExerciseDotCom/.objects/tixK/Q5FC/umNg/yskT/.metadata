@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Country ",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "yskT3pQw5kGGfuxO0KXRlw",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/yskT3pQw5kGGfuxO0KXRlw",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/umNgIPw6EkWwI0pwG1H-pA",
+  "Created": "2026-02-07T12:13:55.2877553Z",
+  "Updated": "2026-02-07T12:13:55.2877553Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "unchecked",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "TY8q9xKpkEqfXE2Dnimv_Q",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/TY8q9xKpkEqfXE2Dnimv_Q",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/umNgIPw6EkWwI0pwG1H-pA",
+  "Created": "2026-02-07T12:04:16.7878124Z",
+  "Updated": "2026-02-07T12:04:16.7878124Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

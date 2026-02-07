@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Account Created!",
+  "Type": "Element",
+  "Id": "Sdd5poCPg0KG_c39uImVmg",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/Sdd5poCPg0KG_c39uImVmg",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/uiJNOwvy9UyEi_0xBDCsVw",
+  "Created": "2026-02-07T12:19:26.170587Z",
+  "Updated": "2026-02-07T12:19:26.170587Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

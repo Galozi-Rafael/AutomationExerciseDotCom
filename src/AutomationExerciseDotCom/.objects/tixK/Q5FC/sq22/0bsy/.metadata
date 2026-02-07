@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Logged in as TestName",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "0bsyC38vbUCvKQcKNN7yaQ",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/0bsyC38vbUCvKQcKNN7yaQ",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/sq22Vv8sDEmsGYMfVCuafA",
+  "Created": "2026-02-07T12:23:13.0731471Z",
+  "Updated": "2026-02-07T12:23:13.0731471Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
