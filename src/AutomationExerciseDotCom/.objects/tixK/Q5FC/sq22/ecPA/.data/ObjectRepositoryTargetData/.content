@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lOqmNVLnF0e9R2ZH__TREg" Reference="2OaW6vX7TEyfDjae0oSHpA/ecPA8wdbM0ygU1HhP43Hfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" CVScreenId="1b6d6795-dd29-4ae5-a918-ecd422016cb3" CvTextArea="1274, 192, 151, 16" CvTextArgument="Logged in as TestName" CvType="Text" DesignTimeRectangle="1257, 189, 168, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='A' aaname='Logged in as*' /&gt;" Guid="aa9e3941-2c9c-4158-a6b7-897c8dbe3846" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1b6d6795-dd29-4ae5-a918-ecd422016cb3" CvTextArea="1178, 162, 96, 13" CvTextArgument="Delete Account" CvType="Text" DesignTimeRectangle="1161, 159, 112, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Delete Account' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Delete Account' /&gt;" Guid="73967c5e-2750-48e4-83bc-a05bdd350f84" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2a234f00abeb0b24607beca48640e58f.png" xmlns="">07T2TwtVJKEafbTKoyw14qA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
