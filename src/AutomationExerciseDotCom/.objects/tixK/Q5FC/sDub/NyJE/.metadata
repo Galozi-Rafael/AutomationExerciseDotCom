@@ -1,0 +1,13 @@
+﻿{
+  "Name": "AutomationExercise Full…",
+  "Type": "Element",
+  "Id": "NyJEbRsM20O9cnP9GeeZ8A",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/NyJEbRsM20O9cnP9GeeZ8A",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/sDubI8PlNUmTIq3oxcD3Ug",
+  "Created": "2026-02-07T02:44:55.1757878Z",
+  "Updated": "2026-02-07T02:44:55.1757878Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

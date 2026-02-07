@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Automation Exercise",
+  "Type": "App",
+  "Id": "tixKSDnvoE-YQehfYrwN2w",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/tixKSDnvoE-YQehfYrwN2w",
+  "Created": "2026-02-06T14:04:13.018677Z",
+  "Updated": "2026-02-06T14:04:13.018677Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

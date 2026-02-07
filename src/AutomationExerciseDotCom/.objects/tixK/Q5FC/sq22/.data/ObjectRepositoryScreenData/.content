@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="diMRs5U68Eu8jUFVvBGAzg" Reference="2OaW6vX7TEyfDjae0oSHpA/sq22Vv8sDEmsGYMfVCuafA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="PMDzrSLHSUCMXuV5Jgcfsg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAE4AAABTCAIAAAC+gKYPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAA89JREFUeF7tmsuVqzAMhqeF1EQ9dEML6YANezpgy4YSKCDkHr/AlmSwMWCFy3+0GQJn+LCsF/x9/xv9wQP31YN6Rz2od9SDekc9qHfUg7pH/XdopqGZRvgDEx2EOjZT/fq8pdUV/JWHjkAdSg15d9RmsjmFlRM8h4WSUbvC5Xx93gXP7ZqGOlaIU9g0wBM5KAl1aiGkNpbbNQFVu27xmWPvYhy3615U7bpyW4IIPB9npn2ovc6iXS/+InbsbVDVMi4b0pBbxjAyxaOaNXRgOuTDasE5KRpVRV24aAPy4bZxz8ivSFQdgagAO7puvII6lPDIJYpBncMPjQEqxFJ0OUMjO4HiUztFFbz0EoWjmkXzlge4GPYavPQSBaOagmEli3iLJ2TwyksUiNprDNp1Zb/a4rofm/TkuoCXX6IwVNO+WIFXzhy6cmpRmgHWVtPIIvFsoy7LVVffsafKQOnYbTmN0IdhTsqqVdSxhynEYhPLNYgT7Ct+DtUaFBFW+Csh+FyYo8LbdawuxEp6ha71PpQMgqiehFF82nIVUumHUMmQ0/pqBkLwSfFFHSuV95ao60uktNCqxl1+rqADK5nFWauNSMFV9VaRGUShLvNOqoNZFUSNf1jnyUGV67DcaHyqQA78fk1stitCXUxUP5EiUPn4sA91PX/69Iuou70Ov9c4CXXsZesfcZ8UasrNocy8tuFlje3YUBm/kP2DqLHhRULLf4kIexh1n+sa2aj1WgBHsdpval6jrXQa45i87aCKB7nbdbXmsUvhXU+08jst0vuovJoqsYtoxzuQMz7nn4G6qhlVOaRpeol5jeO39vGQxoPQ5ag6GsFjKHSjRZPDHe+mCFAOVFIANXIfhogN6vnfjnBFjckigWKD6r6kTdmTPrFBdVaVqoGGSoQlMVWGvwSKCSruE6g0ow0F5zCxRfXabt9mgRpRDyfUrSxQUVKVs1hRMMhPUdUu7fzFZph4oDrhd+dW3BQPVDv8npBRlXigJswow8UCdQlLJ9SDszigWh9RnOa9/FATcsmmGKBaMWl3eRAiBqhLTKJK3+OUH9UqlWJQ9TwVHl5RdlT7w66gTCOmUM6LpdDtnRvVrpNCwm/Ct8e5UWPrJDhtUwsLzyJ1Kaqo2mffw13bNio1Qw1z+6tR0V1SJj5PqExPY9oaukcXxnSv4htNssjhy8+hmla22/R2qGtR1au0QX5m6nFIbfo1h5ybLc6c1J1fiuoIxN7lLSs88ShlQnVGoaEhNFFZUJ1P3wOzYrpyo27n0sOUCVVEnbhUka4sqHn0oN5R/wBGC/C5PNYWiAAAAABJRU5ErkJggg==" Reference="2OaW6vX7TEyfDjae0oSHpA/sq22Vv8sDEmsGYMfVCuafA" Selector="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" Url="https://automationexercise.com/" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="3917343ebd3e508cdb2b1b49d417dc3d.jpg" xmlns="">0HEJl5XEg60y2c3PFSaxSyw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

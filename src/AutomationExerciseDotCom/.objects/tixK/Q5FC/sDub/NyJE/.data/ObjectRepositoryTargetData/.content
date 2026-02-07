@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HQxWaiLQzUCx7DjNcMCWew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" DesignTimeRectangle="391, 314, 1140, 441" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='slider-carousel' tag='DIV' /&gt;" Guid="b6f4b099-449e-4d3c-936f-a613ca2f7494" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2790e34c637ed930f46eacd97bb32b29.png" xmlns="">0eieO9wovFEC_B3lBurJX-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
