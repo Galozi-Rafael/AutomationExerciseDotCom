@@ -1,5 +1,6 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="RemoveAds" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="in_url" Type="InArgument(x:String)" />
     <x:Property Name="in_fase" Type="InArgument(x:String)" />
     <x:Property Name="in_runId" Type="InArgument(x:String)" />
     <x:Property Name="in_tcId" Type="InArgument(x:String)" />
@@ -94,21 +95,24 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="RemoveAds" sap:VirtualizedContainerService.HintSize="1287,615.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="RemoveAds" sap:VirtualizedContainerService.HintSize="1281,832" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence - Remove Ads" sap:VirtualizedContainerService.HintSize="486,459" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Sequence - Remove Ads" sap:VirtualizedContainerService.HintSize="486,809" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,376" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_browser]" IsDisplayNameAuto="True" ScopeGuid="cb0b1dab-c0fd-441f-9bed-b41a04f896a6" Version="V2">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;[&quot; + in_tcId + &quot;] [INFO] [&quot; + in_fase + &quot;] START remove ads | runId=&quot; + in_runId + &quot; | url=&quot; + in_Url]" />
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,385" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[in_browser]" IsDisplayNameAuto="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="cb0b1dab-c0fd-441f-9bed-b41a04f896a6" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -120,7 +124,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NInjectJsScript InputParameter="{x:Null}" ScriptOutput="{x:Null}" DisplayName="Inject Js Script" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NInjectJsScript_1" ScopeIdentifier="cb0b1dab-c0fd-441f-9bed-b41a04f896a6" ScriptCode="function(e){try{var iframes=document.querySelectorAll('iframe');iframes.forEach(function(f){f.style.pointerEvents='none';f.style.opacity='0';});var els=document.querySelectorAll('div, section, aside');els.forEach(function(el){var st=window.getComputedStyle(el);if(!st)return;var pos=(st.position||'').toLowerCase();var zi=parseInt(st.zIndex||'0',10);if(pos='fixed' &amp;&amp; zi&gt;=999){el.style.display='none';}});return 'OK';}catch(err){return 'ERR: '+err.message;}}" Version="V5" />
+              <uix:NInjectJsScript InputParameter="{x:Null}" ScriptOutput="{x:Null}" ContinueOnError="True" DisplayName="Inject Js Script" ExecutionWorld="[UiPath.UIAutomationNext.Enums.NExecutionWorld.Page]" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NInjectJsScript_1" ScopeIdentifier="cb0b1dab-c0fd-441f-9bed-b41a04f896a6" ScriptCode="function(e){try{var href=window.location.href||'';if(href.toLowerCase().indexOf('#google_vignette')&gt;=0){window.location.replace(href.split('#')[0]);return 'REPLACED';}var ifr=document.querySelectorAll('iframe');ifr.forEach(function(f){var r=f.getBoundingClientRect();if(r.width&gt;50&amp;&amp;r.height&gt;50){f.style.pointerEvents='none';}});document.documentElement.style.overflow='auto';document.body.style.overflow='auto';return 'OK';}catch(err){return 'ERR: '+err.message;}}" Version="V5" />
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
@@ -151,6 +155,7 @@
           </uix:TargetApp>
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;[&quot; + in_tcId + &quot;] [INFO] [&quot; + in_fase + &quot;] AD Removed | runId=&quot; + in_runId + &quot; | url=&quot; + in_Url]" />
     </Sequence>
   </Sequence>
 </Activity>

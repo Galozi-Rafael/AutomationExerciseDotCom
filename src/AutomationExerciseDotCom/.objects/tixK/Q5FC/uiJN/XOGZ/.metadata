@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Continue(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "XOGZKIPCMESyhjKauCw0CA",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/XOGZKIPCMESyhjKauCw0CA",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/uiJNOwvy9UyEi_0xBDCsVw",
+  "Created": "2026-02-07T14:12:27.3458779Z",
+  "Updated": "2026-02-07T14:12:27.3458779Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
