@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cTk0Pk-Ft0moUKmWOY-w6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/login" CVScreenId="0329bc55-14de-421e-a650-2aa02bb6817c" CvTextArea="487, 383, 194, 22" CvTextArgument="Login to your account" CvType="Text" DesignTimeRectangle="488, 382, 360, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H2' /&gt;" Guid="3198d74b-b119-4800-b632-972dcefab70a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Signup / Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0329bc55-14de-421e-a650-2aa02bb6817c" CvElementArea="486, 545, 87, 35" CvTextArea="511, 556, 37, 16" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="488, 547, 84, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-default' aaname='Login' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Login' /&gt;" Guid="2ed8ed5d-ac7b-4d7b-8649-f36c474ab03f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a5134c1d101c7ba3b4dc0c67df3c2c1d.png" xmlns="">09vFuPmGgAU-AVua6uGXlWA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

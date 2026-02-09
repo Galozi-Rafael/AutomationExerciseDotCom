@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LBViCoGpk0O0I8ZaheDuIQ" Reference="2OaW6vX7TEyfDjae0oSHpA/JqfzRt04PkeKgdCnggW5xg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" CVScreenId="f684990b-4b20-47f3-a3a8-8888d0af7170" CvTextArea="1274, 192, 167, 16" CvTextArgument="Logged in as *" CvType="Text" DesignTimeRectangle="1257, 189, 183, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Logged in as Rafael Teste' tag='A' innertext=' Logged in as*' parentclass='nav navbar-nav' visibleinnertext=' Logged in as*' /&gt;" Guid="dbf51cfa-19fd-47e8-b374-d305f9179ab0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="4bf533ebafbe26a132b0d0f7c0f7fb3e.png" xmlns="">0azKXaBHPpkm66B-ryHuM-g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
