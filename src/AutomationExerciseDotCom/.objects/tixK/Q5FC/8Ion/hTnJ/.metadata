@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Your email or password …",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "hTnJDus53UK5oETwgM18Vw",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/hTnJDus53UK5oETwgM18Vw",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/8IonXyk7M0-imwmclcH3vw",
+  "Created": "2026-02-09T21:12:25.8670289Z",
+  "Updated": "2026-02-09T21:12:25.8670289Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

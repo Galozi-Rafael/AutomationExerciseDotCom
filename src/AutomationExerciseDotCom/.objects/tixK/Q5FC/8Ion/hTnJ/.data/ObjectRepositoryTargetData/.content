@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1qhd17HhJkSZMoAPCY5H_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/login" CVScreenId="6cd4bba8-4aa7-4acb-8095-208320dcb15d" CvTextArea="486, 537, 223, 13" CvTextArgument="Your email or password İs incorrect!" CvType="Text" DesignTimeRectangle="488, 534, 360, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='P' aaname='Your email or password is incorrect!' innertext='Your email or password is incorrect!' visibleinnertext='Your email or password is incorrect!' /&gt;" Guid="f4870df7-69db-4466-9f5b-9ef9fc32fc72" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Signup / Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="c01e608369661b803d955fae690a1300.png" xmlns="">0M5BPzoeqMkODiHD_WKM98w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
