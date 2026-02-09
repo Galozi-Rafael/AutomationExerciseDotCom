@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Email Address already e…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "iyDX8sFJl0CietmJBGwbqQ",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/iyDX8sFJl0CietmJBGwbqQ",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/8IonXyk7M0-imwmclcH3vw",
+  "Created": "2026-02-09T22:36:53.4240872Z",
+  "Updated": "2026-02-09T22:36:53.4240872Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

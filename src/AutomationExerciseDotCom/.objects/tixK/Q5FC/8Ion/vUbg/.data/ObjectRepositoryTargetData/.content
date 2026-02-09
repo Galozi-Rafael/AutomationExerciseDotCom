@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="noEPMAYH1k2HWxkG03xgUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/login" CVScreenId="a4c78929-f5a2-4251-8485-271884b60c56" CvTextArea="985, 497, 90, 13" CvTextArgument="Email Address" CvType="Text" DesignTimeRectangle="976, 484, 360, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='email' data-qa='signup-email' parentclass='signup-form' placeholder='Email Address' /&gt;" Guid="88ceb569-b3f2-45fd-a337-033e2f8745b9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Signup / Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="13f5f7ee5a0c2633061dd99a25a22cf0.png" xmlns="">0DNlW_959M0y6YkWtPncWug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

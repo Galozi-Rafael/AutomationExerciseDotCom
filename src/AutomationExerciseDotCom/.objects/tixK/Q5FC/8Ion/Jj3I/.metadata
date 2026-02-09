@@ -1,0 +1,14 @@
+﻿{
+  "Name": "New User Signup!",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Jj3IeV4Gw0KIaOqah8fxCw",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/Jj3IeV4Gw0KIaOqah8fxCw",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/8IonXyk7M0-imwmclcH3vw",
+  "Created": "2026-02-09T22:30:17.6236325Z",
+  "Updated": "2026-02-09T22:30:17.6236325Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

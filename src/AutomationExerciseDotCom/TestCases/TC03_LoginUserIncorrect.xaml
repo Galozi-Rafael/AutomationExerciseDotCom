@@ -96,40 +96,20 @@
       <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC03_LoginUserIncorrect" sap:VirtualizedContainerService.HintSize="1281,1790" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC03_LoginUserIncorrect" sap:VirtualizedContainerService.HintSize="1281,1794" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="1. Launch browser&#xD;&#xA;2. Navigate to url 'http://automationexercise.com'&#xD;&#xA;3. Verify that home page is visible successfully&#xD;&#xA;4. Click on 'Signup / Login' button&#xD;&#xA;5. Verify 'Login to your account' is visible&#xD;&#xA;6. Enter incorrect email address and password&#xD;&#xA;7. Click 'login' button&#xD;&#xA;8. Verify error 'Your email or password is incorrect!' is visible" DisplayName="Sequence - Login User with incorrect email and password" sap:VirtualizedContainerService.HintSize="520,1767" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="1. Launch browser&#xA;2. Navigate to url 'http://automationexercise.com'&#xA;3. Verify that home page is visible successfully&#xA;4. Click on 'Signup / Login' button&#xA;5. Verify 'Login to your account' is visible&#xA;6. Enter incorrect email address and password&#xA;7. Click 'login' button&#xA;8. Verify error 'Your email or password is incorrect!' is visible" DisplayName="Sequence - Login User with incorrect email and password" sap:VirtualizedContainerService.HintSize="520,1771" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="wrongEmail">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">wonrgtest@couvemail.com</Literal>
-          </Variable.Default>
-        </Variable>
-        <Variable x:TypeArguments="x:String" Name="phase">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">Init</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="wonrgtest@couvemail.com" Name="wrongEmail" />
+        <Variable x:TypeArguments="x:String" Default="Init" Name="phase" />
         <Variable x:TypeArguments="ui:UiElement" Name="browser" />
-        <Variable x:TypeArguments="x:String" Name="runId">
-          <Variable.Default>
-            <VisualBasicValue x:TypeArguments="x:String" ExpressionText="DateTime.Now.ToString(&quot;yyyyMMddHHmmss&quot;)" />
-          </Variable.Default>
-        </Variable>
-        <Variable x:TypeArguments="x:String" Name="tcId">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">TC_03</Literal>
-          </Variable.Default>
-        </Variable>
-        <Variable x:TypeArguments="x:String" Name="baseUrl">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">https://automationexercise.com/</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="[DateTime.Now.ToString(&quot;yyyyMMddHHmmss&quot;)]" Name="runId" />
+        <Variable x:TypeArguments="x:String" Default="TC_03" Name="tcId" />
+        <Variable x:TypeArguments="x:String" Default="https://automationexercise.com/" Name="baseUrl" />
         <Variable x:TypeArguments="x:String" Name="password" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
@@ -157,19 +137,19 @@
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="486,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + baseUrl]" />
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,304" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[browser]" IsDisplayNameAuto="True" IsIncognito="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="e4caa009-f66f-4021-b2cd-3a82118ed6a6" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,308" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[browser]" IsDisplayNameAuto="True" IsIncognito="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="e4caa009-f66f-4021-b2cd-3a82118ed6a6" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,173" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,177" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Sequence - NavToLogin" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <Sequence DisplayName="Sequence - NavToLogin" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_6">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>

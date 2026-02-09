@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hKKsu8v7mUG4cHGKr4hgJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/signup" CVScreenId="1349f5e3-5f53-4fb7-91a5-4f78262f27a1" CvTextArea="975, 537, 177, 13" CvTextArgument="Email Address already exist!" CvType="Text" DesignTimeRectangle="976, 534, 360, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="ca210ad9-4035-4ebd-a792-f537bb8517f0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Signup / Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f582d4dfe9fe724d7f6400a7c57f5f41.png" xmlns="">0zwutWhIY1EWiC-3XFEzDhg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
