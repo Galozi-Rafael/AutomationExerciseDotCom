@@ -117,7 +117,7 @@
       </Variable>
       <Variable x:TypeArguments="x:String" Name="tcId">
         <Variable.Default>
-          <Literal x:TypeArguments="x:String">TC_02</Literal>
+          <Literal x:TypeArguments="x:String">TC_04</Literal>
         </Variable.Default>
       </Variable>
       <Variable x:TypeArguments="x:String" Name="baseUrl">
@@ -133,7 +133,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="1. Launch browser&#xD;&#xA;2. Navigate to url 'http://automationexercise.com'&#xD;&#xA;3. Verify that home page is visible successfully&#xD;&#xA;4. Click on 'Signup / Login' button&#xD;&#xA;5. Verify 'Login to your account' is visible&#xD;&#xA;6. Enter correct email address and password&#xD;&#xA;7. Click 'login' button&#xD;&#xA;8. Verify that 'Logged in as username' is visible&#xD;&#xA;9. Click 'Logout' button // modificado por motivo didático&#xD;&#xA;10. Verify that user is navigated to login page&#xD;&#xA;&#xD;&#xA;" DisplayName="Sequence - Login User with correct email and password" sap:VirtualizedContainerService.HintSize="556,7590" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="1. Launch browser&#xD;&#xA;2. Navigate to url 'http://automationexercise.com'&#xD;&#xA;3. Verify that home page is visible successfully&#xD;&#xA;4. Click on 'Signup / Login' button&#xD;&#xA;5. Verify 'Login to your account' is visible&#xD;&#xA;6. Enter correct email address and password&#xD;&#xA;7. Click 'login' button&#xD;&#xA;8. Verify that 'Logged in as username' is visible&#xD;&#xA;9. Click 'Logout' button &#xD;&#xA;10. Verify that user is navigated to login page&#xD;&#xA;&#xD;&#xA;" DisplayName="Sequence - Logout User" sap:VirtualizedContainerService.HintSize="556,7590" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
