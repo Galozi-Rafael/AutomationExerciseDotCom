@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F94gAhdIHkCmcIzONw8MkQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/test_cases" CVScreenId="84bb16bd-1665-45e1-8bc8-728c4fca97b7" CvTextArea="854, 262, 115, 16" CvTextArgument="TEST CASES" CvType="Text" DesignTimeRectangle="855, 261, 113, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='form' tag='B' aaname='Test Cases' innertext='Test Cases' visibleinnertext='TEST CASES' /&gt;" Guid="b70b52e9-3ae3-490b-ba3d-2476dc850a1d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Practice Website for UI Testing - Test Cases' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="25fc9773712fa15df4b8c2a8f20c8515.png" xmlns="">0CeN_ogdvGUSOilvCBBsJRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
