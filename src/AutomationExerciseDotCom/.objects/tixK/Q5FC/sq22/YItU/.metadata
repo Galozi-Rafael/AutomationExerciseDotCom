@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT susbscribe_email",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "YItU2qTGVEGUkQl29n7tjg",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/YItU2qTGVEGUkQl29n7tjg",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/sq22Vv8sDEmsGYMfVCuafA",
+  "Created": "2026-02-10T16:58:57.7943597Z",
+  "Updated": "2026-02-10T16:58:57.7943597Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

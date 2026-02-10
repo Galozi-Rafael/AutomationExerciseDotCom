@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="T2UvkEUwB0S-bFFOe68D1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" CVScreenId="dc942a15-51aa-4d60-8ecd-1e77ef054376" CvElementArea="487, 754, 213, 38" CvType="InputBox" DesignTimeRectangle="488, 755, 212, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='susbscribe_email' tag='INPUT' /&gt;" Guid="09ed6df7-8305-4f95-84ae-e06314907a33" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dc942a15-51aa-4d60-8ecd-1e77ef054376" CvElementArea="697, 753, 54, 39" CvType="Button" DesignTimeRectangle="699, 755, 51, 36" ElementType="Button" FullSelectorArgument="&lt;webctrl id='subscribe' tag='BUTTON' /&gt;" Guid="09e5127e-753c-4cf5-852d-56f2bbaf8671" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="edb1452b7a5790bde71af23254479c57.png" xmlns="">0wNb2pMfhwk-BfYY1BZYMXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
