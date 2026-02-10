@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ek9cunMjIE2sVcwmz-3Afw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/products" CVScreenId="3cf4bf23-1e23-47ad-9fca-365363b5433d" CvElementArea="794, 581, 78, 43" CvTextArea="823, 594, 18, 17" CvTextArgument="Q" CvType="Button" DesignTimeRectangle="795, 583, 75, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='submit_search' tag='BUTTON' /&gt;" Guid="af13e8f5-74eb-46b5-ac10-777220c5ec3d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3cf4bf23-1e23-47ad-9fca-365363b5433d" CvElementArea="504, 581, 293, 42" CvType="InputBox" DesignTimeRectangle="506, 582, 300, 40" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search_product' tag='INPUT' /&gt;" Guid="a1614f7d-f9c6-4a29-b720-bc368891b3df" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ba865c5b46cf4ca9e44c2c638aa17bc2.png" xmlns="">0d3VDORCz-E6cZWNIODYkyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

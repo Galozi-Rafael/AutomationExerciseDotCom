@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="ChG0XvIacE6LCxNm0ks8Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="0mOVKl8E90qHb3pUiPoURQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/product_details/1" DesignTimeRectangle="1057, 272, 474, 351" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='product-information' tag='DIV' /&gt;" Guid="7db0b724-0d3b-4b23-99ef-f7ea52512023" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Product Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="179dd3d36ecbbac9d8c42e00de0af71b.png" xmlns="">0XxbRqyf6JUyaeyqM_8kiPQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/products" CVScreenId="0fb14329-0ef0-46f2-b143-b8a243d509ee" CvTextArea="1010, 642, 208, 16" CvTextArgument="SEARCHED PRODUCTS" CvType="Text" DesignTimeRectangle="698, 642, 833, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h2' tag='H2' aaname='Searched Products' visibleinnertext='SEARCHED PRODUCTS' /&gt;" Guid="e98a22af-9759-4341-9a61-d4c16de95da2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="b64ab70bc052ae7f4ca9417d93a16eb2.png" xmlns="">09GHUIv8VLky9pn5e33S7zA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>
