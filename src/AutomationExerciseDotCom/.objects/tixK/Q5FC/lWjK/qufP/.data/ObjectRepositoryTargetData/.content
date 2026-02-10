@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NZO9PRmeQEaNg-Zh9SXUXw" Reference="2OaW6vX7TEyfDjae0oSHpA/qufPVzTUtUK0qToEOU_gYQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/test_cases" CVScreenId="f3deeb4f-f09a-4733-889c-dff43a5d8269" DesignTimeRectangle="847, 159, 112, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Delete Account' tag='A' href='/delete_account' /&gt;" Guid="74661204-a160-4391-84d1-11dcf8a4ffe5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Practice Website for UI Testing - Test Cases' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="49799a6aa7cc21dc1c4edf69cbafa3a3.png" xmlns="">0YEDEuUoILk2reyUjEL7hjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

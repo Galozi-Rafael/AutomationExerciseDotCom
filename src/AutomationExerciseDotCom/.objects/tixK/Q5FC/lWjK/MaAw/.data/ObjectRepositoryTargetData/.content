@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="b2duwrwQ6kKmugXlSRNLvQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" CVScreenId="8605cc30-6660-40e2-afbf-e7e7827b032d" CvTextArea="1178, 162, 96, 13" CvTextArgument="Delete Account" CvType="Text" DesignTimeRectangle="1161, 159, 112, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Delete Account' tag='A' /&gt;" Guid="d68919bc-e659-4266-8e58-4b877385a18e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8605cc30-6660-40e2-afbf-e7e7827b032d" CvTextArea="1087, 162, 45, 16" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1072, 159, 59, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Logout' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Logout' /&gt;" Guid="268d517c-29fe-43a1-baa6-3f032d67b15b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5c7f1b07e71a9be41420ce04f54b54a1.png" xmlns="">0vpNoluREz0aZiutto_nQ5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
