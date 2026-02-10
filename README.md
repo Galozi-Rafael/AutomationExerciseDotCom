@@ -12,7 +12,7 @@ Automatizar o site playground de e-commerce: https://automationexercise.com/
 - [x] Test Case 7: Verify Test Cases Page
 - [x] Test Case 8: Verify All Products and product detail page
 - [x] Test Case 9: Search Product
-- [ ] Test Case 10: Verify Subscription in home page
+- [x] Test Case 10: Verify Subscription in home page
 - [ ] Test Case 11: Verify Subscription in Cart page
 - [ ] Test Case 12: Add Products in Cart
 - [ ] Test Case 13: Verify Product quantity in Cart
