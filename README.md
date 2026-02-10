@@ -9,7 +9,7 @@ Automatizar o site playground de e-commerce: https://automationexercise.com/
 - [x] Test Case 4: Logout User
 - [x] Test Case 5: Register User with existing email
 - [ ] Test Case 6: Contact Us Form
-- [ ] Test Case 7: Verify Test Cases Page
+- [x] Test Case 7: Verify Test Cases Page
 - [ ] Test Case 8: Verify All Products and product detail page
 - [ ] Test Case 9: Search Product
 - [ ] Test Case 10: Verify Subscription in home page
@@ -36,10 +36,11 @@ Automatizar o site playground de e-commerce: https://automationexercise.com/
 
 Este cenário valida o fluxo completo de cadastro de um novo usuário, incluindo login automático e exclusão da conta ao final do processo.
 
-#### Objective
+#### Objectivo
+
 Validar o processo de **registro, autenticação e exclusão de usuário** no site Automation Exercise.
 
-#### Test Steps
+#### Passo a passo do test
 
 1. Abrir o navegador  
 2. Navegar para a URL: `http://automationexercise.com`  
@@ -76,6 +77,7 @@ Validar o processo de **registro, autenticação e exclusão de usuário** no si
 18. Verificar se **"ACCOUNT DELETED!"** está visível e clicar em **Continue**
 
 #### Resultado Esperado
+
 - A conta do usuário é criada com sucesso  
 - O usuário é autenticado automaticamente após o cadastro  
 - A conta do usuário é excluída com sucesso  
