@@ -4,11 +4,11 @@ Automatizar o site playground de e-commerce: https://automationexercise.com/
 ## Checklist — Automation Exercise
 
 - [x] Test Case 1: Register User
-- [ ] Test Case 2: Login User with correct email and password
+- [x] Test Case 2: Login User with correct email and password
 - [x] Test Case 3: Login User with incorrect email and password
 - [x] Test Case 4: Logout User
 - [x] Test Case 5: Register User with existing email
-- [x] Test Case 6: Contact Us Form
+- [ ] Test Case 6: Contact Us Form
 - [x] Test Case 7: Verify Test Cases Page
 - [x] Test Case 8: Verify All Products and product detail page
 - [x] Test Case 9: Search Product
