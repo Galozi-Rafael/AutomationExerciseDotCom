@@ -10,7 +10,7 @@ Automatizar o site playground de e-commerce: https://automationexercise.com/
 - [x] Test Case 5: Register User with existing email
 - [ ] Test Case 6: Contact Us Form
 - [x] Test Case 7: Verify Test Cases Page
-- [ ] Test Case 8: Verify All Products and product detail page
+- [x] Test Case 8: Verify All Products and product detail page
 - [ ] Test Case 9: Search Product
 - [ ] Test Case 10: Verify Subscription in home page
 - [ ] Test Case 11: Verify Subscription in Cart page
