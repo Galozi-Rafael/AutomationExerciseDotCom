@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ChG0XvIacE6LCxNm0ks8Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/product_details/1" DesignTimeRectangle="1057, 272, 474, 351" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='product-information' tag='DIV' /&gt;" Guid="7db0b724-0d3b-4b23-99ef-f7ea52512023" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Product Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="179dd3d36ecbbac9d8c42e00de0af71b.png" xmlns="">0XxbRqyf6JUyaeyqM_8kiPQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
