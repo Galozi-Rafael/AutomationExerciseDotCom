@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JwTCVN12JUWRVLCSXz7iuw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/view_cart" CVScreenId="523d4099-99b3-482d-ad40-6c337219c54d" CvTextArea="459, 273, 91, 16" CvTextArgument="Shopping Cart" CvType="Text" DesignTimeRectangle="446, 270, 103, 20" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='active' parentid='cart_items' tag='LI' aaname='Shopping Cart' innertext='Shopping Cart' /&gt;" Guid="f9fca3a2-0c1f-476a-8bb5-2eba865d8d14" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Checkout' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="ade8e189c6bc93732d2edd724592fc69.png" xmlns="">0If5Y-54rk06I_0gYGDMqBw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

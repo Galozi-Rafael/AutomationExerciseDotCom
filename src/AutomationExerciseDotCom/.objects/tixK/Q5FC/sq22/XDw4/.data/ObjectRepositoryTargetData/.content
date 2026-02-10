@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YfAo8fklTUaRwRPxbBTRZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" CVScreenId="03b7c02e-8331-4dd2-ad7f-fba5df2d613e" CvTextArea="1014, 162, 29, 13" CvTextArgument="Cart" CvType="Text" DesignTimeRectangle="996, 159, 46, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Cart' tag='A' href='/view_cart' innertext=' Cart' /&gt;" Guid="fbbe0c97-107f-4f7c-b105-59e4af2b370b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="8b5714b32ce8b2428592a1664db26382.png" xmlns="">0Zy53rLQ7FUOULlUa38ZJDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
