@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ylxVhYyASUqoDZD9kueuFA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ead12347-b853-4075-81a7-c7017f196fd3" DesignTimeRectangle="998, 179, 83, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='automationexercise.com diz' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' text='OK' /&gt;" Guid="c62ca4be-fca5-4315-ba60-5bfb58e00397" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Automation Exercise - Contact Us - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="2f78a3137b50dba4a26a06c2fce58da8.png" xmlns="">0k-OUB928VUS9ayoFq0U91A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

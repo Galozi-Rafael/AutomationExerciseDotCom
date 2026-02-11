@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vTjqRHrAjEOM44r8rqnahg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/contact_us" CVScreenId="1ccf827d-3b70-473a-bac7-f4f1de1bdbcb" DesignTimeRectangle="398, 382, 750, 52" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl isleaf='1' parentid='contact-page' tag='DIV' aaname='Success! Your details have been submitted successfully.' class='status alert alert-success' innertext='Success! Your details have been submitted successfully.' /&gt;" Guid="b3f40fc2-1d08-447e-a500-b6a825383dd5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Contact Us' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="4cf4f80c4ef429ea32e05be97b78ccec.png" xmlns="">0ON5quXlewk6UnAzEAdvZhg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FExPhjisykiCWwDd5DtYsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/contact_us" CVScreenId="f7f1834e-623d-48a5-bcff-153551358926" DesignTimeRectangle="391, 514, 750, 160" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='message' tag='TEXTAREA' parentname='contact-form' placeholder='Your Message Here' /&gt;" Guid="f08b7849-814e-4ce5-90a2-de5ec36f8d77" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Contact Us' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="86b9059ae001c590d9e489b2ae973d12.png" xmlns="">0LahjCUjDDE-n_2FJ6cxZ-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

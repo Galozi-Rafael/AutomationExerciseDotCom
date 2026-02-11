@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1imd2wDrr0y3ARAtuSamvQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/contact_us" CVScreenId="1ccf827d-3b70-473a-bac7-f4f1de1bdbcb" DesignTimeRectangle="398, 454, 75, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='form-section' tag='A' aaname=' Home' class='btn btn-success' parentclass='contact-form' /&gt;" Guid="c3a735f7-73d9-427e-8f7e-78224f6a5336" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Contact Us' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="283505316218c417302c89e1c39ed8bd.png" xmlns="">0N6L0SgKLDEiWo-YPHVFV4w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

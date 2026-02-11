@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F6zrzWTF-EGG1pIDtX2x7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="fc0d0dd0-4573-4e37-829f-c0b1052e191e" CvElementArea="991, 174, 96, 49" CvTextArea="1028, 192, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="998, 179, 83, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='automationexercise.com diz' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="f23572a8-86b6-45ef-90eb-22bec44349df" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Automation Exercise - Contact Us - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="3cac9bd60b711dfcab542cf6417a00e1.png" xmlns="">09IcoM1hP0kSjJ0HN7OdW7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TEXTAREA message",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "-LRvUru2LU-kz7DW7MR9Wg",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/-LRvUru2LU-kz7DW7MR9Wg",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/fwGZlPlxe06LR1uesEhRgA",
+  "Created": "2026-02-11T12:45:09.5429376Z",
+  "Updated": "2026-02-11T12:45:09.5429376Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
