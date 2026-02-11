@@ -1,0 +1,14 @@
+﻿{
+  "Name": "View Product",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "LszEHygkIEWo1TAIzVNgrA",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/LszEHygkIEWo1TAIzVNgrA",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/tOOy-SF1_EaE04EO6AvJLA",
+  "Created": "2026-02-11T20:45:08.4155955Z",
+  "Updated": "2026-02-11T20:45:08.4155955Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

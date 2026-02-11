@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Continue Shopping",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "3el0NYTc2EGWb83jIfn30Q",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/3el0NYTc2EGWb83jIfn30Q",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/tOOy-SF1_EaE04EO6AvJLA",
+  "Created": "2026-02-11T20:47:42.35041Z",
+  "Updated": "2026-02-11T20:47:42.35041Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
