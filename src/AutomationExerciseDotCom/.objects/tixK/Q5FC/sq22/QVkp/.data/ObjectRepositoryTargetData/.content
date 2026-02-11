@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DyAPQYWh20y6_gHLBHd0BA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" CVScreenId="de539b0e-0774-41ef-9481-14ac6f335fc8" CvElementArea="1863, 986, 42, 44" CvTextArea="1872, 1001, 21, 14" CvTextArgument="^" CvType="Button" DesignTimeRectangle="1864, 991, 39, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='scrollUp' tag='A' href='#top' style='position: fixed; z-index: 2147483647;' /&gt;" Guid="8e0fb487-f176-4b20-a808-757b391afde1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="8, 1000, 1905, 40" FuzzySelectorArgument="&lt;webctrl class='footer-bottom' parentid='footer' tag='DIV' type='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Copyright © 2021 All rights reserved' /&gt;" Guid="8eb635c6-0ca5-4326-9cfa-af616893250a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="56da2c2f5f90fa7f810bb99554479f57.png" xmlns="">0KnD9CcbJTUGmGeil0-pdZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

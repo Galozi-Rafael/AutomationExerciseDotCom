@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Full-Fledged practice w…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "aPw_2kTw5kGCcteW0J763Q",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/aPw_2kTw5kGCcteW0J763Q",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/sq22Vv8sDEmsGYMfVCuafA",
+  "Created": "2026-02-11T12:20:26.8334488Z",
+  "Updated": "2026-02-11T12:20:26.8334488Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Copyright © 2021 All ri…",
+  "Type": "Element",
+  "Id": "QVkpAPm4YEqwQofWR9z2Yg",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/QVkpAPm4YEqwQofWR9z2Yg",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/sq22Vv8sDEmsGYMfVCuafA",
+  "Created": "2026-02-11T12:18:34.8757282Z",
+  "Updated": "2026-02-11T12:18:34.8757282Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

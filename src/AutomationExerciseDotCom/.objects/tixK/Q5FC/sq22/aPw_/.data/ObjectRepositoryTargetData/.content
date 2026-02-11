@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jZW74Kxi9E6obVGjJsGJYQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" DesignTimeRectangle="506, 440, 490, 61" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H2' aaname='Full-Fledged practice website for Automation Engineers' innertext='Full-Fledged practice website for Automation Engineers' parentid='slider-carousel' /&gt;" Guid="1b7b040d-dc74-4a27-817a-958397ca81ae" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="9aa89a6e3d09ea29216029e64b4f20be.png" xmlns="">0oyde1gDlskmmduARNfQ2Fw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
