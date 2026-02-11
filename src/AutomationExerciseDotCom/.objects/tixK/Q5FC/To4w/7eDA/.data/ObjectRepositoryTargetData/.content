@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pJI1qEn4vE2ux6-RCPv-lw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/view_cart" CVScreenId="840483e3-2329-4575-942d-9be7bd319983" DesignTimeRectangle="1055, 540, 24, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='cart_info_table' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='BUTTON' class='disabled' colName='Quantity' parentclass='cart_quantity' /&gt;" Guid="2b11cb68-d056-4f13-a390-2bb2cc12e66d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="0d589916f24f970ce0287e7e645a586b.png" xmlns="">0x9lNbKhxmUmccFqp3lsjmA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
