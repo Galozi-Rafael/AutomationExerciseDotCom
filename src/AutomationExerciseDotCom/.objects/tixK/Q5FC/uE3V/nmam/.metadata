@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Thank you for your revi…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "nmamW_cpL0yGzDTmZTFE3g",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/nmamW_cpL0yGzDTmZTFE3g",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/uE3VFVhbF0e8OOAdrOLd6A",
+  "Created": "2026-02-12T12:02:33.2903655Z",
+  "Updated": "2026-02-12T12:02:33.2903655Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

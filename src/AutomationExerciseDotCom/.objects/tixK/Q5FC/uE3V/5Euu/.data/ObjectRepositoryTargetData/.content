@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="drltmQuR7Ue-sZv4-lkaFA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/product_details/1" CVScreenId="178a78af-3da8-40e0-957e-db145b983a05" DesignTimeRectangle="699, 745, 178, 40" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Write Your Review' tag='A' href='#reviews' innertext='Write Your Review' /&gt;" Guid="b28146a6-91db-48f5-be52-8dead49ae163" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Product Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="03148e09d70a253acb9b58944511cf9c.png" xmlns="">0Gzhc8-cShUKy9ojbFhJ0rA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TEXTAREA review",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Sg_iENF-306riFaQBEA32Q",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/Sg_iENF-306riFaQBEA32Q",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/uE3VFVhbF0e8OOAdrOLd6A",
+  "Created": "2026-02-12T11:57:49.466062Z",
+  "Updated": "2026-02-12T11:57:49.466062Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
