@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iE6uuN_VlEiK7vgZhsbB4w" Reference="2OaW6vX7TEyfDjae0oSHpA/unUtcZaK202uegmUcFZNDQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/view_cart" CVScreenId="88a934e4-6468-44fa-8b02-1b7e79a8708a" DesignTimeRectangle="1469, 708, 27, 27" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='cart_info_table' tag='TABLE' /&gt;&lt;webctrl class='cart_quantity_delete' tableRow='*' tag='A' parentclass='cart_delete' /&gt;" Guid="6c7be54c-3b74-4404-8189-46d0347e6cf5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="cc1d51247db1c3f531cf119f3b7d722f.png" xmlns="">0y4q8eGX0wEK9oJHygqMCdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
