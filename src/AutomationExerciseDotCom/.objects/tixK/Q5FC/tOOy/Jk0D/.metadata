@@ -1,0 +1,14 @@
+﻿{
+  "Name": "(6)Polo",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Jk0DkGZ9PkOmB1C5tjvXOQ",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/Jk0DkGZ9PkOmB1C5tjvXOQ",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/tOOy-SF1_EaE04EO6AvJLA",
+  "Created": "2026-02-12T20:55:46.9226391Z",
+  "Updated": "2026-02-12T20:55:46.9226391Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

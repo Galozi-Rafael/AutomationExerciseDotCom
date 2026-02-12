@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X1UKk_-jE0qP0gDvAGwKRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/products" CVScreenId="3213ae7e-123b-426b-833a-be008379bb5a" DesignTimeRectangle="392, 974, 260, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' (6)Polo' tag='A' href='/brand_products/Polo' parentclass='nav nav-pills nav-stacked' /&gt;" Guid="085663ae-e94e-4bd7-b897-0a513caf40d2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="35d1cbd1bc4473af946779914e257ced.png" xmlns="">0JXJWhcGRiEiqSWZjkhNLFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
