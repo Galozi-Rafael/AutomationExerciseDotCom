@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="W-grqIV5hEyG0DLRTewymQ" Reference="2OaW6vX7TEyfDjae0oSHpA/t2VKRZJoGk-HNDE1ewZPLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" CVScreenId="76882d19-f2ba-45d2-9d8c-6e55900eabf5" DesignTimeRectangle="769, 738, 115, 34" ElementType="Text" ElementVisibilityArgument="[UiPath.UIAutomationNext.Enums.NElementVisibility.Visible]" FullSelectorArgument="&lt;webctrl parentid='recommended-item-carousel' tag='A' aaname='Add to cart' data-product-id='1' /&gt;" Guid="dace56b6-2580-4138-9825-40c9dbfb8e59" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e6380c161b6b07fca6dd6ada59fab8ec.png" xmlns="">0Y06XGV_aW0CHyX8FkusEwA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
