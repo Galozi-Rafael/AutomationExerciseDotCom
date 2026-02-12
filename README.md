@@ -20,7 +20,7 @@ Automatizar o site playground de e-commerce: https://automationexercise.com/
 - [ ] Test Case 15: Place Order — Register before Checkout
 - [ ] Test Case 16: Place Order — Login before Checkout
 - [x] Test Case 17: Remove Products From Cart
-- [ ] Test Case 18: View Category Products
+- [x] Test Case 18: View Category Products
 - [ ] Test Case 19: View & Cart Brand Products
 - [ ] Test Case 20: Search Products and Verify Cart After Login
 - [x] Test Case 21: Add review on product
