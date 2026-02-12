@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="p0VvEpT9lUiWSMt5-o36FQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/category_products/3" CVScreenId="0afc373e-3d63-4e52-8af4-c2ab2859a902" DesignTimeRectangle="698, 425, 833, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h2' tag='H2' aaname='Men - Tshirts Products' /&gt;" Guid="9a6686ff-2cea-46a1-9030-4291a69e76b9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Tshirts Products' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d5fa00b9c567a327b842534851dc7b4f.png" xmlns="">03KxFkU_KiUiD1y7tu8glXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

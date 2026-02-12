@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_i9o8KaL0UKZfzjGFtIIaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com" CVScreenId="ca0cc7ea-fadb-4f3b-9bc5-936e4b4d26ab" CvTextArea="425, 933, 34, 12" CvTextArgument="TOPS" CvType="Text" DesignTimeRectangle="427, 933, 32, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tops ' parentid='Women' tag='A' /&gt;" Guid="3ea07580-a45f-4864-9b07-e60a8e9a119b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fc638ade39a398b14dd0020448ad9657.png" xmlns="">0Lm_bmPFvOUWVNF45qXDIhA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

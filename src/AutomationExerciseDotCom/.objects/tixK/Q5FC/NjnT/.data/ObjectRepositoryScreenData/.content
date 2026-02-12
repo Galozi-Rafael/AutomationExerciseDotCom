@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="EA35ZfdwLU-zCeBenhGgoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='chrome.exe' title='Automation Exercise - Tshirts Products' /&gt;" Url="automationexercise.com/category_products/3" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

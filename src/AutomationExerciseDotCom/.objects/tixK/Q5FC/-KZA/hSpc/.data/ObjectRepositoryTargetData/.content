@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rXaJEix6hki51SuYq82bQg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/category_products/2" CVScreenId="07ac5fdf-be49-4df8-a38f-52a9a28cb4ba" DesignTimeRectangle="427, 570, 51, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='Men' tag='A' /&gt;" Guid="187d2012-3a4c-40cd-8bfe-3a0ef9f934fc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Tops Products' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="02325279e2a3161de714d394e59946a2.png" xmlns="">0NBZk0f2PBEqnX7HV3k_ylA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
