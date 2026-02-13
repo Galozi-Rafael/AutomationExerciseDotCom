@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Signup  Login",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "WjnxmvKy4kupnldrjJ9v4g",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/WjnxmvKy4kupnldrjJ9v4g",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/To4wun7C4EqTild0SsmQDw",
+  "Created": "2026-02-13T15:58:19.8339249Z",
+  "Updated": "2026-02-13T15:58:19.8339249Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

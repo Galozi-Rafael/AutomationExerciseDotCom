@@ -1,0 +1,758 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TC20_SearchProductsAndVerifyCartAfterLogin" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="TC20_SearchProductsAndVerifyCartAfterLogin_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Activities.Contracts</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TC20_SearchProductsAndVerifyCartAfterLogin" sap:VirtualizedContainerService.HintSize="1281,2059" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap2010:Annotation.AnnotationText="1. Launch browser&#xD;&#xA;2. Navigate to url 'http://automationexercise.com'&#xD;&#xA;3. Click on 'Products' button&#xD;&#xA;4. Verify user is navigated to ALL PRODUCTS page successfully&#xD;&#xA;5. Enter product name in search input and click search button&#xD;&#xA;6. Verify 'SEARCHED PRODUCTS' is visible&#xD;&#xA;7. Verify all the products related to search are visible&#xD;&#xA;8. Add those products to cart&#xD;&#xA;9. Click 'Cart' button and verify that products are visible in cart&#xD;&#xA;10. Click 'Signup / Login' button and submit login details&#xD;&#xA;11. Again, go to Cart page&#xD;&#xA;12. Verify that those products are visible in cart after login as well" DisplayName="Sequence - Search Products and Verify Cart After Login" sap:VirtualizedContainerService.HintSize="520,2036" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="ui:UiElement" Name="browser" />
+        <Variable x:TypeArguments="x:String" Default="Init" Name="phase" />
+        <Variable x:TypeArguments="x:String" Name="CurrentUrl" />
+        <Variable x:TypeArguments="x:String" Default="https://automationexercise.com/" Name="baseUrl" />
+        <Variable x:TypeArguments="x:String" Name="tcId">
+          <Variable.Default>
+            <Literal x:TypeArguments="x:String">TC_20</Literal>
+          </Variable.Default>
+        </Variable>
+        <Variable x:TypeArguments="x:String" Default="[DateTime.Now.ToString(&quot;yyyyMMddHHmmss&quot;)]" Name="runId" />
+        <Variable x:TypeArguments="x:String" Name="password" />
+        <Variable x:TypeArguments="x:String" Name="loginTest">
+          <Variable.Default>
+            <Literal x:TypeArguments="x:String">zedascouvestest@couvemail.com</Literal>
+          </Variable.Default>
+        </Variable>
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="486,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + baseUrl]" />
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="OpenHome - Invoke Workflow File (Framework\OpenHome.xaml)" sap:VirtualizedContainerService.HintSize="486,182" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\OpenHome.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="in_runId">[runId]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_tcId">[tcId]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_baseUrl">[baseUrl]</InArgument>
+          <OutArgument x:TypeArguments="ui:UiElement" x:Key="out_browser">[browser]</OutArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,1388" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[browser]" InteractionMode="Simulate" IsDisplayNameAuto="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1266" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Sequence - NavToProducts" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_1">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">["NavToProducts"]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + baseUrl]" />
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ' Products(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com" CVScreenId="9c6c4b9d-0e4b-471d-8bae-bd85c72f5c9b" ContentHash="0DKkpZHAO0CESozWP45dkA" DesignTimeRectangle="888, 159, 78, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Products' tag='A' href='/products' innertext=' Products' parentid='header' /&gt;" Guid="b361e722-4cfc-462e-9d8d-b6d7c3a4dea4" InformativeScreenshot="b7f9cf96eb76e32bee254efd814e8ae1.png" Reference="2OaW6vX7TEyfDjae0oSHpA/1gqurgt50E6JXASvY1khAA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="RemoveAds - Invoke Workflow File (Framework\RemoveAds.xaml)" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Framework\RemoveAds.xaml">
+                  <ui:InvokeWorkflowFile.Arguments>
+                    <OutArgument x:TypeArguments="x:String" x:Key="out_jsStatus" />
+                    <InArgument x:TypeArguments="x:String" x:Key="in_url">[baseUrl]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_phase">[phase]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_runId">[runId]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_tcId">[tcId]</InArgument>
+                    <InArgument x:TypeArguments="ui:UiElement" x:Key="in_browser">[browser]</InArgument>
+                  </ui:InvokeWorkflowFile.Arguments>
+                </ui:InvokeWorkflowFile>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + baseUrl]" />
+              </Sequence>
+              <Sequence DisplayName="Sequence - CheckProductsPage" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_6">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">["CheckProductsPage"]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <uix:NGetUrl CurrentUrl="[CurrentUrl]" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NGetUrl_3" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5" />
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                <uix:NCheckState DisplayName="Check App State 'All Products(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,757" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] OK | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] FAIL | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/products" CVScreenId="89569ee6-bc64-4a3b-8c7c-a3af46ba1a0f" ContentHash="QB9V2P7IvESCgoCLDgaiMg" CvTextArea="1042, 642, 143, 16" CvTextArgument="ALL PRODUCTS" CvType="Text" DesignTimeRectangle="698, 642, 833, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h2' tag='H2' aaname='All Products' innertext='All Products' /&gt;" Guid="68b13ea0-0cc1-4323-97e5-ef9acd94c308" InformativeScreenshot="5a4fa413187f48e1a4c2703bf90d754c.png" Reference="2OaW6vX7TEyfDjae0oSHpA/S2wBA-LJSE2uJTYk6Fif9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NCheckState.Target>
+                </uix:NCheckState>
+              </Sequence>
+              <Sequence DisplayName="Sequence - AddToCart" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_3">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">["CheckProductsPage"]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <uix:NGetUrl CurrentUrl="[CurrentUrl]" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NGetUrl_1" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5" />
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'View Product'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,339" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NMouseScroll.SearchedElement>
+                    <uix:SearchedElement>
+                      <uix:SearchedElement.OutUiElement>
+                        <OutArgument x:TypeArguments="ui:UiElement" />
+                      </uix:SearchedElement.OutUiElement>
+                      <uix:SearchedElement.Target>
+                        <uix:TargetAnchorable BrowserURL="automationexercise.com/products" CVScreenId="0d779419-b642-44eb-b2a0-20b8450b42d6" ContentHash="ngVPA4PLM0uFrW6F1BY9BQ" CvTextArea="795, 684, 79, 13" CvTextArgument="View Product" CvType="Text" DesignTimeRectangle="703, 673, 247, 38" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='View Product' tag='A' href='/product_details/1' innertext='View Product' /&gt;" Guid="b0ccd12d-6cc8-4dad-ab2b-61a9c1663a92" InformativeScreenshot="5db298f0f01cd6845e7afd0b8eab6484.png" Reference="2OaW6vX7TEyfDjae0oSHpA/eQT75v9rEUeYAbfyhvTvhg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                      </uix:SearchedElement.Target>
+                      <uix:SearchedElement.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:SearchedElement.Timeout>
+                    </uix:SearchedElement>
+                  </uix:NMouseScroll.SearchedElement>
+                  <uix:NMouseScroll.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/products" CVScreenId="acea4670-7d55-482c-a16b-4f30e7ae7275" ContentHash="31VVOR21o0G99xdAgV3g3w" CvTextArea="795, 684, 79, 13" CvTextArgument="View Product" CvType="Text" DesignTimeRectangle="703, 673, 247, 38" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='View Product' tag='A' href='/product_details/1' innertext='View Product' /&gt;" Guid="f67d20f7-3800-45d4-9c18-45bee7b3654d" InformativeScreenshot="5db298f0f01cd6845e7afd0b8eab6484.png" Reference="2OaW6vX7TEyfDjae0oSHpA/LszEHygkIEWo1TAIzVNgrA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NMouseScroll.Target>
+                </uix:NMouseScroll>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add to cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/products" CVScreenId="92f0e78d-721f-46d7-9f60-b35b56033549" ContentHash="xPZYWXDn60OKFe_Uw_iBHg" DesignTimeRectangle="769, 613, 115, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Add to cart' tag='A' class='btn btn-default add-to-cart' innertext='Add to cart' /&gt;" Guid="3c5057f6-e561-42f8-ab4f-7c3aae3d3beb" InformativeScreenshot="122bf0c74cf5d1fb9e26c86193bed941.png" Reference="2OaW6vX7TEyfDjae0oSHpA/WH3PrPvdTEaTXl_h5T8s9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue Shopping'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/products" CVScreenId="06bbf733-73e9-4030-a6c6-dd338bf1756a" ContentHash="Z2HxwRjdCkC40ExXYjZOGg" DesignTimeRectangle="831, 445, 245, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='cartModal' tag='BUTTON' aaname='Continue Shopping' class='btn btn-success close-modal btn-block' innertext='Continue Shopping' /&gt;" Guid="41d10ba3-9255-4047-a2a2-32661cd21237" InformativeScreenshot="f6ccc3eb5a82b984f96b8e0081aaffa0.png" Reference="2OaW6vX7TEyfDjae0oSHpA/3el0NYTc2EGWb83jIfn30Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add to cart(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/products" CVScreenId="d65e613e-795b-471b-924c-1c98abd0ac76" ContentHash="fLXiokqqAECC_hKJMorkeg" DesignTimeRectangle="1056, 613, 116, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Add to cart' css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a' idx='2' tag='A' class='btn btn-default add-to-cart' innertext='Add to cart' /&gt;" Guid="8a3671b5-6a4d-4fb0-a118-712506deb85e" InformativeScreenshot="49cf0839abc250f8c7fd253a596db96c.png" Reference="2OaW6vX7TEyfDjae0oSHpA/PguRdkqRrECZwnH7lBKnJw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] OK | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'View Cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/products" CVScreenId="1da66a1b-b4b6-4867-a5dc-692b40b33577" ContentHash="I0OmaWs40USeoXwYIaxTCQ" DesignTimeRectangle="923, 363, 60, 16" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='U' aaname='View Cart' innertext='View Cart' /&gt;" Guid="96355b66-7744-4cd8-8100-6e90c85d6eb8" InformativeScreenshot="d1d7e2da6a9e35494cb8241a5c064bc6.png" Reference="2OaW6vX7TEyfDjae0oSHpA/GpNQftBVvU-Z40731QPilg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - All Products' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="RemoveAds - Invoke Workflow File (Framework\RemoveAds.xaml)" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Framework\RemoveAds.xaml">
+                  <ui:InvokeWorkflowFile.Arguments>
+                    <OutArgument x:TypeArguments="x:String" x:Key="out_jsStatus" />
+                    <InArgument x:TypeArguments="x:String" x:Key="in_url">[CurrentUrl]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_phase">[phase]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_runId">[runId]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_tcId">[tcId]</InArgument>
+                    <InArgument x:TypeArguments="ui:UiElement" x:Key="in_browser">[browser]</InArgument>
+                  </ui:InvokeWorkflowFile.Arguments>
+                </ui:InvokeWorkflowFile>
+                <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_4">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">["NavToCart"]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <uix:NGetUrl CurrentUrl="[CurrentUrl]" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NGetUrl_2" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5" />
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+              </Sequence>
+              <Sequence DisplayName="Sequence - CheckCartPage" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:Boolean" Name="productOneExists" />
+                  <Variable x:TypeArguments="x:Boolean" Name="productTwoExists" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_5">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">["CheckCartPage"]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                <uix:NCheckState DisplayName="Check App State 'Blue Top Women  Tops R…'" Exists="[productOneExists]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/view_cart" ContentHash="HT8fQ9RRoUulhQ-Im9Fusg" DesignTimeRectangle="392, 495, 1138, 116" ElementType="TableRow" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='cart_info_table' tag='TABLE' /&gt;&lt;webctrl id='product-1' tag='TR' parentid='cart_info_table' /&gt;" Guid="e6ef8c10-4084-46f3-82ff-99c14940f234" InformativeScreenshot="a2380e86f18e51832124d4d46a407473.png" Reference="2OaW6vX7TEyfDjae0oSHpA/H-hQLVbef06Lo13vq_8CdQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NCheckState.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NCheckState>
+                <uix:NCheckState DisplayName="Check App State 'Men Tshirt Men  Tshirt…'" Exists="[productTwoExists]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/view_cart" ContentHash="Msj_DLFe50Wst9hod3iecw" DesignTimeRectangle="392, 611, 1138, 115" ElementType="TableRow" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='cart_info_table' tag='TABLE' /&gt;&lt;webctrl id='product-2' tag='TR' parentid='cart_info_table' /&gt;" Guid="f0da43cc-1c53-44c5-b7dc-4f4fd2a5e5d0" InformativeScreenshot="7bfe0a8254e0b56a8f4eebdf4d46efdf.png" Reference="2OaW6vX7TEyfDjae0oSHpA/TUNyCRLvSUOmt9LLPm4NyA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NCheckState.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NCheckState>
+                <If Condition="[productOneExists AndAlso productTwoExists]" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="If_1">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] OK | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] FAIL | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <Sequence DisplayName="Sequence - NavToLogin" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_7">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">["NavToLogin"]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <uix:NGetUrl CurrentUrl="[CurrentUrl]" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NGetUrl_4" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5" />
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="RemoveAds - Invoke Workflow File (Framework\RemoveAds.xaml)" sap:VirtualizedContainerService.HintSize="452,186" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Framework\RemoveAds.xaml">
+                  <ui:InvokeWorkflowFile.Arguments>
+                    <OutArgument x:TypeArguments="x:String" x:Key="out_jsStatus" />
+                    <InArgument x:TypeArguments="x:String" x:Key="in_url">[CurrentUrl]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_phase">[phase]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_runId">[runId]</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="in_tcId">[tcId]</InArgument>
+                    <InArgument x:TypeArguments="ui:UiElement" x:Key="in_browser">[browser]</InArgument>
+                  </ui:InvokeWorkflowFile.Arguments>
+                </ui:InvokeWorkflowFile>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Signup  Login(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com" CVScreenId="b8d8a851-3859-488e-a6af-c9cade047ce3" ContentHash="ZLToC_ZE6kq-63M3MJU8mQ" CvTextArea="1087, 162, 91, 16" CvTextArgument="Signup / Login" CvType="Text" DesignTimeRectangle="1072, 159, 106, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Signup / Login' tag='A' /&gt;" Guid="8bbde65e-8777-44de-88c9-865d6b2d4f3c" InformativeScreenshot="7eb39e1b714e306fd86a0e80e7c3fac9.png" Reference="2OaW6vX7TEyfDjae0oSHpA/l8iCaRyI10SG71ivYsw7LA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NCheckState DisplayName="Check App State 'Login to your account'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1881" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,1358" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_8">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">["LoginPage"]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.None]" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="[UiPath.UIAutomationNext.Enums.NEmptyFieldMode.SingleLine]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="Simulate" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Text="[loginTest]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="automationexercise.com/login" CVScreenId="0329bc55-14de-421e-a650-2aa02bb6817c" CvElementArea="487, 432, 362, 41" CvType="InputBox" DesignTimeRectangle="488, 434, 360, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='email' parentclass='login-form' data-qa='login-email' /&gt;" Guid="c2f9d3ed-ebd9-4cc3-a08b-c573695e1659" InformativeScreenshot="3520f847025f15a712714558c7eb7e55.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Signup / Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <ui:GetPassword DisplayName="Private: Get Password" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA16hWRvM/G0WVFN+Y5in6PAAAAAACAAAAAAAQZgAAAAEAACAAAADxIJYZt6vXGBVGeSrqOfNEjUy8oXjlVUSywlD8RfEqKwAAAAAOgAAAAAIAACAAAADPgHXdfeG+yoYSBNuzl1WSqLr4jUyO41eKuaUECdoqLxAAAADz92koaxDKyLXlDjJ+32gTQAAAAJCW+/sRfJKF4EuiC5ftMbvsJeCR8rQ070fntvFUgbDoxBM8Lp8zprbJaPouuVMt4gy0Vr45N0ukcsqCBCZhAnA=" Result="[password]" />
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="Simulate" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Text="[password]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="automationexercise.com/login" CVScreenId="0329bc55-14de-421e-a650-2aa02bb6817c" CvElementArea="486, 482, 363, 43" CvType="InputBox" DesignTimeRectangle="488, 484, 360, 40" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' data-qa='login-password' parentclass='login-form' /&gt;" Guid="7f432bb8-b892-471a-a62e-ae0d12f225c9" InformativeScreenshot="a06573fad037c1c8739d02d89dea97e1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Signup / Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="automationexercise.com/login" CVScreenId="0329bc55-14de-421e-a650-2aa02bb6817c" ContentHash="FqdLE-3zW0SVeqy6IYQTcQ" CvElementArea="486, 545, 87, 35" CvTextArea="511, 556, 37, 16" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="488, 547, 84, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="fe09d958-ec76-45d6-a9c7-d3d45fe65d99" InformativeScreenshot="bc1q9shqng58tykf3kmwukzez6h5xne559f5gfu2l8.png" Reference="2OaW6vX7TEyfDjae0oSHpA/nEo0_NCoqESCwSp98fKI4g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Signup / Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="RemoveAds - Invoke Workflow File (Framework\RemoveAds.xaml)" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Framework\RemoveAds.xaml">
+                        <ui:InvokeWorkflowFile.Arguments>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_jsStatus" />
+                          <InArgument x:TypeArguments="x:String" x:Key="in_url">[CurrentUrl]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_phase">[phase]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_runId">[runId]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_tcId">[tcId]</InArgument>
+                          <InArgument x:TypeArguments="ui:UiElement" x:Key="in_browser">[browser]</InArgument>
+                        </ui:InvokeWorkflowFile.Arguments>
+                      </ui:InvokeWorkflowFile>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_16" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] OK | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] FAIL | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/login" CVScreenId="0329bc55-14de-421e-a650-2aa02bb6817c" ContentHash="cTk0Pk-Ft0moUKmWOY-w6Q" CvTextArea="487, 383, 194, 22" CvTextArgument="Login to your account" CvType="Text" DesignTimeRectangle="488, 382, 360, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H2' /&gt;" Guid="3198d74b-b119-4800-b632-972dcefab70a" InformativeScreenshot="a5134c1d101c7ba3b4dc0c67df3c2c1d.png" Reference="2OaW6vX7TEyfDjae0oSHpA/Ob8Rr-ihwkeNOHnpSR_zGw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Signup / Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="0329bc55-14de-421e-a650-2aa02bb6817c" CvElementArea="486, 545, 87, 35" CvTextArea="511, 556, 37, 16" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="488, 547, 84, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-default' aaname='Login' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Login' /&gt;" Guid="2ed8ed5d-ac7b-4d7b-8649-f36c474ab03f" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NCheckState.Target>
+                </uix:NCheckState>
+              </Sequence>
+              <Sequence DisplayName="Sequence - LoginCheck" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Name="CurrentUrl" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NGetUrl CurrentUrl="[CurrentUrl]" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NGetUrl_10" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5" />
+                <Assign sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_9">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">["VerifyLogin"]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_18" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+                <uix:NCheckState DelayBefore="2" DisplayName="Check App State 'Logged in as Rafael Tes…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1552" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="b0e9cb85-6469-4dc2-ac83-bdcd0094f9ec" Timeout="10" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,1018" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="attributeText" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_19" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] OK | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+                      <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_10">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">["DeleteAccountClick"]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <uix:NGetUrl CurrentUrl="[CurrentUrl]" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NGetUrl_11" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5" />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_20" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="RemoveAds - Invoke Workflow File (Framework\RemoveAds.xaml)" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Framework\RemoveAds.xaml">
+                        <ui:InvokeWorkflowFile.Arguments>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_jsStatus" />
+                          <InArgument x:TypeArguments="x:String" x:Key="in_url">[CurrentUrl]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_phase">[phase]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_runId">[runId]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_tcId">[tcId]</InArgument>
+                          <InArgument x:TypeArguments="ui:UiElement" x:Key="in_browser">[browser]</InArgument>
+                        </ui:InvokeWorkflowFile.Arguments>
+                      </ui:InvokeWorkflowFile>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_21" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] OK | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_22" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] FAIL | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com" CVScreenId="f684990b-4b20-47f3-a3a8-8888d0af7170" ContentHash="LBViCoGpk0O0I8ZaheDuIQ" CvTextArea="1274, 192, 167, 16" CvTextArgument="Logged in as *" CvType="Text" DesignTimeRectangle="1257, 189, 183, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Logged in as Rafael Teste' tag='A' innertext=' Logged in as*' parentclass='nav navbar-nav' visibleinnertext=' Logged in as*' /&gt;" Guid="dbf51cfa-19fd-47e8-b374-d305f9179ab0" InformativeScreenshot="4bf533ebafbe26a132b0d0f7c0f7fb3e.png" Reference="2OaW6vX7TEyfDjae0oSHpA/JqfzRt04PkeKgdCnggW5xg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NCheckState.Target>
+                </uix:NCheckState>
+              </Sequence>
+              <Sequence DisplayName="Sequence - NavToCart" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NGetUrl CurrentUrl="[CurrentUrl]" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NGetUrl_12" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5" />
+                <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_13">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">["NavToCart"]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_29" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/login" CVScreenId="ee736360-3fb4-4015-928e-6554e32975cc" ContentHash="AIq-413DDEqo038ZiU7b9g" DesignTimeRectangle="996, 159, 46, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Cart' tag='A' href='/view_cart' innertext=' Cart' parentid='header' /&gt;" Guid="7a559f2d-5b8e-4642-a184-76b66a33a252" InformativeScreenshot="3738d6d07d9b371379661df42d6ec3ad.png" Reference="2OaW6vX7TEyfDjae0oSHpA/Iye5doxCTEOBwu7iO0Czlw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Signup / Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_30" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] OK | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
+              </Sequence>
+              <Sequence DisplayName="Sequence - CheckCartPage" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:Boolean" Name="productOneExists" />
+                  <Variable x:TypeArguments="x:Boolean" Name="productTwoExists" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_12">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">["CheckCartPage"]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                <uix:NCheckState DisplayName="Check App State 'Blue Top Women  Tops R…'" Exists="[productOneExists]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/view_cart" ContentHash="HT8fQ9RRoUulhQ-Im9Fusg" DesignTimeRectangle="392, 495, 1138, 116" ElementType="TableRow" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='cart_info_table' tag='TABLE' /&gt;&lt;webctrl id='product-1' tag='TR' parentid='cart_info_table' /&gt;" Guid="e6ef8c10-4084-46f3-82ff-99c14940f234" InformativeScreenshot="a2380e86f18e51832124d4d46a407473.png" Reference="2OaW6vX7TEyfDjae0oSHpA/H-hQLVbef06Lo13vq_8CdQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NCheckState.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NCheckState>
+                <uix:NCheckState DisplayName="Check App State 'Men Tshirt Men  Tshirt…'" Exists="[productTwoExists]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="automationexercise.com/view_cart" ContentHash="Msj_DLFe50Wst9hod3iecw" DesignTimeRectangle="392, 611, 1138, 115" ElementType="TableRow" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='cart_info_table' tag='TABLE' /&gt;&lt;webctrl id='product-2' tag='TR' parentid='cart_info_table' /&gt;" Guid="f0da43cc-1c53-44c5-b7dc-4f4fd2a5e5d0" InformativeScreenshot="7bfe0a8254e0b56a8f4eebdf4d46efdf.png" Reference="2OaW6vX7TEyfDjae0oSHpA/TUNyCRLvSUOmt9LLPm4NyA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:NCheckState.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NCheckState>
+                <If Condition="[productOneExists AndAlso productTwoExists]" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="If_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_27" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] OK | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_28" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] FAIL | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <Assign sap:VirtualizedContainerService.HintSize="450,179" sap2010:WorkflowViewState.IdRef="Assign_2">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[phase]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">["End"]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,179" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="CloseBrowser - Invoke Workflow File (Framework\CloseBrowser.xaml)" sap:VirtualizedContainerService.HintSize="450,186" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Framework\CloseBrowser.xaml">
+                <ui:InvokeWorkflowFile.Arguments>
+                  <InArgument x:TypeArguments="ui:UiElement" x:Key="in_browser">[browser]</InArgument>
+                </ui:InvokeWorkflowFile.Arguments>
+              </ui:InvokeWorkflowFile>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,170" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] OK | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" Version="V2">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+            <uix:TargetApp.FilePath>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.FilePath>
+            <uix:TargetApp.Selector>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Selector>
+            <uix:TargetApp.Url>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Url>
+            <uix:TargetApp.WorkingDirectory>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.WorkingDirectory>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
