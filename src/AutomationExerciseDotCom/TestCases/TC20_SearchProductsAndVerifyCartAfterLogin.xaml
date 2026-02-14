@@ -97,30 +97,22 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC20_SearchProductsAndVerifyCartAfterLogin" sap:VirtualizedContainerService.HintSize="1281,2059" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC20_SearchProductsAndVerifyCartAfterLogin" sap:VirtualizedContainerService.HintSize="1245,2059" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="1. Launch browser&#xD;&#xA;2. Navigate to url 'http://automationexercise.com'&#xD;&#xA;3. Click on 'Products' button&#xD;&#xA;4. Verify user is navigated to ALL PRODUCTS page successfully&#xD;&#xA;5. Enter product name in search input and click search button&#xD;&#xA;6. Verify 'SEARCHED PRODUCTS' is visible&#xD;&#xA;7. Verify all the products related to search are visible&#xD;&#xA;8. Add those products to cart&#xD;&#xA;9. Click 'Cart' button and verify that products are visible in cart&#xD;&#xA;10. Click 'Signup / Login' button and submit login details&#xD;&#xA;11. Again, go to Cart page&#xD;&#xA;12. Verify that those products are visible in cart after login as well" DisplayName="Sequence - Search Products and Verify Cart After Login" sap:VirtualizedContainerService.HintSize="520,2036" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="1. Launch browser&#xA;2. Navigate to url 'http://automationexercise.com'&#xA;3. Click on 'Products' button&#xA;4. Verify user is navigated to ALL PRODUCTS page successfully&#xA;5. Enter product name in search input and click search button&#xA;6. Verify 'SEARCHED PRODUCTS' is visible&#xA;7. Verify all the products related to search are visible&#xA;8. Add those products to cart&#xA;9. Click 'Cart' button and verify that products are visible in cart&#xA;10. Click 'Signup / Login' button and submit login details&#xA;11. Again, go to Cart page&#xA;12. Verify that those products are visible in cart after login as well" DisplayName="Sequence - Search Products and Verify Cart After Login" sap:VirtualizedContainerService.HintSize="520,2036" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="ui:UiElement" Name="browser" />
         <Variable x:TypeArguments="x:String" Default="Init" Name="phase" />
         <Variable x:TypeArguments="x:String" Name="CurrentUrl" />
         <Variable x:TypeArguments="x:String" Default="https://automationexercise.com/" Name="baseUrl" />
-        <Variable x:TypeArguments="x:String" Name="tcId">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">TC_20</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="TC_20" Name="tcId" />
         <Variable x:TypeArguments="x:String" Default="[DateTime.Now.ToString(&quot;yyyyMMddHHmmss&quot;)]" Name="runId" />
         <Variable x:TypeArguments="x:String" Name="password" />
-        <Variable x:TypeArguments="x:String" Name="loginTest">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">zedascouvestest@couvemail.com</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="zedascouvestest@couvemail.com" Name="loginTest" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -527,7 +519,7 @@
                   </Assign.Value>
                 </Assign>
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_18" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + currentUrl]" />
-                <uix:NCheckState DelayBefore="2" DisplayName="Check App State 'Logged in as Rafael Tes…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1552" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="b0e9cb85-6469-4dc2-ac83-bdcd0094f9ec" Timeout="10" Version="V5">
+                <uix:NCheckState DelayBefore="2" DisplayName="Check App State 'Logged in as Rafael Tes…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1541" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Timeout="10" Version="V5">
                   <uix:NCheckState.IfExists>
                     <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,1018" sap2010:WorkflowViewState.IdRef="Sequence_21">
                       <Sequence.Variables>

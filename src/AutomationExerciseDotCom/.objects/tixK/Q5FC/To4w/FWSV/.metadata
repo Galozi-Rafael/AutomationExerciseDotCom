@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Proceed To Checkout(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FWSVhXknV0uPVH9tvqaojg",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/FWSVhXknV0uPVH9tvqaojg",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/To4wun7C4EqTild0SsmQDw",
+  "Created": "2026-02-13T16:46:52.002921Z",
+  "Updated": "2026-02-13T16:46:52.002921Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

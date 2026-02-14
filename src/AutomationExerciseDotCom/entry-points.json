@@ -5,6 +5,11 @@
       "filePath": "Main.xaml",
       "uniqueId": "3d885f00-c269-4830-a26c-25760a572727",
       "type": "process"
+    },
+    {
+      "filePath": "TestCases\\TC14_PlaceOrder_RegisterWhileCheckout.xaml",
+      "uniqueId": "22630c61-c63d-411e-9113-45419b1d53f0",
+      "type": "process"
     }
   ]
 }

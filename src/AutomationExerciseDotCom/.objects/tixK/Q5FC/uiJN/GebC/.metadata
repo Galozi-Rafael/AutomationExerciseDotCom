@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cart",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "GebCRCX2PkG4_U9mtfp0qw",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/GebCRCX2PkG4_U9mtfp0qw",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/uiJNOwvy9UyEi_0xBDCsVw",
+  "Created": "2026-02-14T22:45:44.4069048Z",
+  "Updated": "2026-02-14T22:45:44.4069048Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
