@@ -88,13 +88,13 @@
       <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC15_PlaceOrder_RegisterbeforeCheckout" sap:VirtualizedContainerService.HintSize="1245,2406" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC15_PlaceOrder_RegisterbeforeCheckout" sap:VirtualizedContainerService.HintSize="1245,2401" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="1. Launch browser&#xA;2. Navigate to url 'http://automationexercise.com'&#xA;3. Verify that home page is visible successfully&#xA;4. Add products to cart&#xA;5. Click 'Cart' button&#xA;6. Verify that cart page is displayed&#xA;7. Click Proceed To Checkout&#xA;8. Click 'Register / Login' button&#xA;9. Fill all details in Signup and create account&#xA;10. Verify 'ACCOUNT CREATED!' and click 'Continue' button&#xA;11. Verify ' Logged in as username' at top&#xA;12.Click 'Cart' button&#xA;13. Click 'Proceed To Checkout' button&#xA;14. Verify Address Details and Review Your Order&#xA;15. Enter description in comment text area and click 'Place Order'&#xA;16. Enter payment details: Name on Card, Card Number, CVC, Expiration date&#xA;17. Click 'Pay and Confirm Order' button&#xA;18. Verify success message 'Your order has been placed successfully!'&#xA;19. Click 'Delete Account' button&#xA;20. Verify 'ACCOUNT DELETED!' and click 'Continue' button" DisplayName="Sequence - Place Order: Register while Checkout" sap:VirtualizedContainerService.HintSize="520,2383" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="1. Launch browser&#xD;&#xA;2. Navigate to url 'http://automationexercise.com'&#xD;&#xA;3. Verify that home page is visible successfully&#xD;&#xA;4. Click 'Signup / Login' button&#xD;&#xA;5. Fill all details in Signup and create account&#xD;&#xA;6. Verify 'ACCOUNT CREATED!' and click 'Continue' button&#xD;&#xA;7. Verify ' Logged in as username' at top&#xD;&#xA;8. Add products to cart&#xD;&#xA;9. Click 'Cart' button&#xD;&#xA;10. Verify that cart page is displayed&#xD;&#xA;11. Click Proceed To Checkout&#xD;&#xA;12. Verify Address Details and Review Your Order&#xD;&#xA;13. Enter description in comment text area and click 'Place Order'&#xD;&#xA;14. Enter payment details: Name on Card, Card Number, CVC, Expiration date&#xD;&#xA;15. Click 'Pay and Confirm Order' button&#xD;&#xA;16. Verify success message 'Your order has been placed successfully!'&#xD;&#xA;17. Click 'Delete Account' button&#xD;&#xA;18. Verify 'ACCOUNT DELETED!' and click 'Continue' button" DisplayName="Sequence - Place Order: Register before Checkout" sap:VirtualizedContainerService.HintSize="520,2378" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="ui:UiElement" Name="browser" />
         <Variable x:TypeArguments="x:String" Default="Init" Name="phase" />
@@ -120,19 +120,19 @@
           <OutArgument x:TypeArguments="ui:UiElement" x:Key="out_browser">[browser]</OutArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,1604" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[browser]" InteractionMode="Simulate" IsDisplayNameAuto="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,1632" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[browser]" InteractionMode="Simulate" IsDisplayNameAuto="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1482" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1510" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Sequence - NavToLogin" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence DisplayName="Sequence - NavToLogin" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_3">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -145,7 +145,7 @@
                   </uix:NClick.Target>
                 </uix:NClick>
               </Sequence>
-              <Sequence DisplayName="Sequence - Login page" sap:VirtualizedContainerService.HintSize="486,2818" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Sequence - Login page" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -666,7 +666,7 @@
                   </ui:InvokeWorkflowFile.Arguments>
                 </ui:InvokeWorkflowFile>
               </Sequence>
-              <Sequence DisplayName="Sequence - NavToProducts" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_8">
+              <Sequence DisplayName="Sequence - NavToProducts" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_8">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -699,7 +699,7 @@
                 </ui:InvokeWorkflowFile>
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + baseUrl]" />
               </Sequence>
-              <Sequence DisplayName="Sequence - CheckProductsPage" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_11">
+              <Sequence DisplayName="Sequence - CheckProductsPage" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_11">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -742,7 +742,7 @@
                   </uix:NCheckState.Target>
                 </uix:NCheckState>
               </Sequence>
-              <Sequence DisplayName="Sequence - AddToCart" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_12">
+              <Sequence DisplayName="Sequence - AddToCart" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_12">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -819,7 +819,7 @@
                 <uix:NGetUrl CurrentUrl="[CurrentUrl]" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NGetUrl_3" ScopeIdentifier="82b265c8-dea9-492d-ae90-38fd496982f6" Version="V5" />
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;[&quot; + tcId + &quot;] [INFO] [&quot; + phase + &quot;] START | runId=&quot; + runId + &quot; | url=&quot; + CurrentUrl]" />
               </Sequence>
-              <Sequence DisplayName="Sequence - CheckCartPage" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_19">
+              <Sequence DisplayName="Sequence - CheckCartPage" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_19">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:Boolean" Name="productOneExists" />
                   <Variable x:TypeArguments="x:Boolean" Name="productTwoExists" />
