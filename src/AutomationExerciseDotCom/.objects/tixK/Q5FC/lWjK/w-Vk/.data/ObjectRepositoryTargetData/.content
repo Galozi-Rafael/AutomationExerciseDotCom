@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="30Et5jPLkkGozUtW6_Bi3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/test_cases" CVScreenId="d9dace1e-4572-4567-a881-ff643ae3c575" DesignTimeRectangle="1072, 211, 106, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Signup / Login' tag='A' href='/login' innertext=' Signup / Login' /&gt;" Guid="9a675505-580e-48f3-a7f1-bb1fe6ad4ada" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Practice Website for UI Testing - Test Cases' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="feca74e4d73a9355d974e31d7abbf64f.png" xmlns="">01ZbhRE2mzUuZvurlfdqX9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
