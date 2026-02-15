@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Yfi0FkfyukGEDNLzd9r9Fg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment" CVScreenId="cc044542-9b7b-4326-a104-98a5629bb89a" CvElementArea="793, 481, 334, 37" CvType="InputBox" DesignTimeRectangle="796, 483, 330, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='form-control' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="bd18d96e-760a-4536-b52a-b816f8aab6e3" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Payment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cc044542-9b7b-4326-a104-98a5629bb89a" DesignTimeRectangle="796, 458, 94, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='control-label' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Name on Card' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' innertext='Name on Card' check:innerText='Name on Card' /&gt;" Guid="8b1afa72-0df0-421c-a52c-f2b7e19297ec" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="28221ab827fe33b7b0fb6233f55b301d.png" xmlns="">0g0mMDeWjZ0iEoDYpg3mLWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

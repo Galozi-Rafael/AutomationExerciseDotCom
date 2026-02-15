@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NC3SNCsHnkubZqLw4JKbyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment" CVScreenId="b6a62ea0-012c-4512-8846-ba1ef509f720" DesignTimeRectangle="1036, 631, 90, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='expiry_year' tag='INPUT' type='text' data-qa='expiry-year' /&gt;" Guid="3c9740d3-e983-4cf2-87ee-94cfe8ee7fd1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Payment' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e583e0e199b7b3911a7c558617da48f2.png" xmlns="">0Fcx1t1nV-Eug2H15cjCOfg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

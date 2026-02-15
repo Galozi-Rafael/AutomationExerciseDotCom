@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Delete Account",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "g2gmAPH3JECGStnunII3eA",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/g2gmAPH3JECGStnunII3eA",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/HRUnqcT1FkyVEw-8pZeuhQ",
+  "Created": "2026-02-15T22:06:06.4935741Z",
+  "Updated": "2026-02-15T22:06:06.4935741Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

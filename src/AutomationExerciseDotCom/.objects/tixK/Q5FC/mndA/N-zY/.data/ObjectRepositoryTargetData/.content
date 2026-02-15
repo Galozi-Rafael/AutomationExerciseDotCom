@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fCYocpjVaUeou82bbB4ITA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment" CVScreenId="b6a62ea0-012c-4512-8846-ba1ef509f720" CvElementArea="914, 629, 94, 37" CvType="InputBox" DesignTimeRectangle="916, 631, 90, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl name='expiry_month' tag='INPUT' type='text' class='form-control card-expiry-month' placeholder='MM' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a643e1cb-5d56-423d-b5e3-7790a7e8c56e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Payment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b6a62ea0-012c-4512-8846-ba1ef509f720" DesignTimeRectangle="916, 606, 68, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Expiration' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='LABEL' type='' class='control-label' matching:class='fuzzy' fuzzylevel:class='0.0' innertext='Expiration' check:innerText='Expiration' /&gt;" Guid="b323bfcb-2924-4161-b00d-af546827b510" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1292789dc4cb2a343391eca302de1a6a.png" xmlns="">0K93M8Tp4skGOxocbNvqqTA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

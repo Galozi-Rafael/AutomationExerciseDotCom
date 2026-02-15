@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Pay and Confirm Order",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "2eKX-sAXnk6ijo8BmE8BRA",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/2eKX-sAXnk6ijo8BmE8BRA",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/mndAp77ydEau5rGWLkgv3A",
+  "Created": "2026-02-15T22:03:49.3335012Z",
+  "Updated": "2026-02-15T22:03:49.3335012Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

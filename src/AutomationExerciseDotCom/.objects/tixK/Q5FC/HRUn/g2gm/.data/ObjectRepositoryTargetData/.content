@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XpgpM37QGE67Qztef5fMeQ" Reference="2OaW6vX7TEyfDjae0oSHpA/g2gmAPH3JECGStnunII3eA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment_done/900" CVScreenId="f7b9596a-d187-4975-8c0a-566ec37d7c98" DesignTimeRectangle="1168, 211, 113, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Delete Account' tag='A' href='/delete_account' innertext=' Delete Account' /&gt;" Guid="1e0b2292-4a14-4af5-bd41-c601eabd28ed" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Order Placed' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a27cdb436b22723b5fbfe32a09497c82.png" xmlns="">0xnJyfvmVTE6s3VBFeEyzNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

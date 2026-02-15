@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ylnl6XQjpkGNhgkiayMwTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/delete_account" CVScreenId="829e4bc7-d456-442c-bb9c-171c8dc77b1f" DesignTimeRectangle="819, 413, 185, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='B' aaname='Account Deleted!' innertext='Account Deleted!' /&gt;" Guid="1fef777e-281b-4fa1-86dc-b8ff92e09d94" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Account Created' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="480358cb77298c4cb8a3dfdef4313bb8.png" xmlns="">0bmJeK6rvbUW239bKYscJSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

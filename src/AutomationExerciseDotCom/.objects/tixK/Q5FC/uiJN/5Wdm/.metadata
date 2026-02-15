@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Account Deleted!",
+  "Type": "Element",
+  "Id": "5WdmxwG30U2aS_-iWj_7Xg",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/5WdmxwG30U2aS_-iWj_7Xg",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/uiJNOwvy9UyEi_0xBDCsVw",
+  "Created": "2026-02-15T22:06:54.5436869Z",
+  "Updated": "2026-02-15T22:06:54.5436869Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="o6fRfbhJAkulmxcKwNJu-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment" CVScreenId="b6a62ea0-012c-4512-8846-ba1ef509f720" DesignTimeRectangle="796, 696, 330, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='submit' tag='BUTTON' aaname='Pay and Confirm Order' data-qa='pay-button' /&gt;" Guid="16e8a241-fbef-4dc4-a7b1-1dfaa49485d0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Payment' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="67ac0d68ecd13e3271ecb85a6d872276.png" xmlns="">0cRRUnMGSuUi7D62mHjU7Rw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

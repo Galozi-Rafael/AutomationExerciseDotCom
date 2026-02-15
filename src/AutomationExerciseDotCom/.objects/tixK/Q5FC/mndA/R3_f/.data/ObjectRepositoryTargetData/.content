@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ueWMAqSZc0G7BDQTWtnUvQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment" CVScreenId="cc044542-9b7b-4326-a104-98a5629bb89a" CvElementArea="794, 556, 335, 37" CvType="InputBox" DesignTimeRectangle="796, 557, 330, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl name='card_number' tag='INPUT' type='text' class='form-control card-number' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="880b504f-0b23-4159-bdf0-2fba417c22ec" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Payment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cc044542-9b7b-4326-a104-98a5629bb89a" DesignTimeRectangle="796, 532, 88, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Card Number' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='LABEL' type='' class='control-label' matching:class='fuzzy' fuzzylevel:class='0.0' innertext='Card Number' check:innerText='Card Number' /&gt;" Guid="97d100d9-4bea-4d38-80dc-f09d440811d9" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3efe2d1011957357e0161744d43956a6.png" xmlns="">0u0TeDbStfk6Ub-KEkzkJAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

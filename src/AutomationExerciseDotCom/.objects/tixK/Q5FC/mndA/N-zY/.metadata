@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Expiration",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "N-zYsKIuokqlob-UqUGmvA",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/N-zYsKIuokqlob-UqUGmvA",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/mndAp77ydEau5rGWLkgv3A",
+  "Created": "2026-02-15T22:02:44.6962044Z",
+  "Updated": "2026-02-15T22:02:44.6962044Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

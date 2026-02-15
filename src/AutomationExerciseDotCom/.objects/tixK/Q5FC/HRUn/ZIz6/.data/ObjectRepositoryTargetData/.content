@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ELeq5fEGQUeumk2_j4xJsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment_done/900" CVScreenId="f7b9596a-d187-4975-8c0a-566ec37d7c98" DesignTimeRectangle="844, 413, 150, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='form' tag='B' aaname='Order Placed!' innertext='Order Placed!' /&gt;" Guid="547df8bd-1597-4ff4-9e7d-60b3ef16daa2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Order Placed' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="17d87266b03274a6eb3839884d7d1e03.png" xmlns="">0JxbkhVcnNkyvgmYlEt7bTg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
