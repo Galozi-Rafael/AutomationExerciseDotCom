@@ -18,7 +18,7 @@ Automatizar o site playground de e-commerce: https://automationexercise.com/
 - [x] Test Case 13: Verify Product quantity in Cart
 - [x] Test Case 14: Place Order — Register while Checkout
 - [x] Test Case 15: Place Order — Register before Checkout
-- [ ] Test Case 16: Place Order — Login before Checkout
+- [x] Test Case 16: Place Order — Login before Checkout
 - [x] Test Case 17: Remove Products From Cart
 - [x] Test Case 18: View Category Products
 - [x] Test Case 19: View & Cart Brand Products
