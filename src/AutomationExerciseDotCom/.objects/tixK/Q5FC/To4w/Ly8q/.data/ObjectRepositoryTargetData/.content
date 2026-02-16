@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BZLNNFqlFkC0XCGqwD1uqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/checkout" CVScreenId="2597a82c-b2af-4333-9f26-8af5412898f9" DesignTimeRectangle="410, 622, 517, 23" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' isleaf='1' parentid='address_delivery' tag='LI' parentclass='address item box' class='address_address1 address_address2' /&gt;" Guid="062321f8-2a83-47da-a1e5-48264c204f0f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Checkout' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="8cb7c966d9d6d2726011db09c952d976.png" xmlns="">0YkfNqsQ0fUCJQfAnB7PmJg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

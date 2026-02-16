@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Rua das Couves",
+  "Type": "Element",
+  "Id": "Ly8qTJar0UKjJA3PRCK5sQ",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/Ly8qTJar0UKjJA3PRCK5sQ",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/To4wun7C4EqTild0SsmQDw",
+  "Created": "2026-02-16T13:52:16.7447574Z",
+  "Updated": "2026-02-16T13:52:16.7447574Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

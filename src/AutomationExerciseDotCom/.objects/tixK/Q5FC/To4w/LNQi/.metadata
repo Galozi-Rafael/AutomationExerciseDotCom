@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Bairro Fazenda das Couv…",
+  "Type": "Element",
+  "Id": "LNQi3Pd0wk6sNdg182NXaw",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/LNQi3Pd0wk6sNdg182NXaw",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/To4wun7C4EqTild0SsmQDw",
+  "Created": "2026-02-16T13:52:47.7404582Z",
+  "Updated": "2026-02-16T13:52:47.7404582Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
