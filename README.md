@@ -26,7 +26,7 @@ Automatizar o site playground de e-commerce: https://automationexercise.com/
 - [x] Test Case 21: Add review on product
 - [x] Test Case 22: Add to cart from Recommended items
 - [x] Test Case 23: Verify address details in checkout page
-- [ ] Test Case 24: Download Invoice after purchase order
+- [x] Test Case 24: Download Invoice after purchase order
 - [x] Test Case 25: Verify Scroll Up using 'Arrow' button and Scroll Down functionality
 - [x] Test Case 26: Verify Scroll Up without 'Arrow' button and Scroll Down functionality
 
