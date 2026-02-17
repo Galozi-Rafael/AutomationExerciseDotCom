@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TKeztV-ZVEmcy4lhXDPPmg" Reference="2OaW6vX7TEyfDjae0oSHpA/PniF_fiahEaLTUj9WwJ97A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment_done/900" CVScreenId="d1e5c2c9-82b6-4fcb-8b18-0991c2ecc13d" DesignTimeRectangle="508, 520, 141, 30" ElementType="Text" ElementVisibilityArgument="[UiPath.UIAutomationNext.Enums.NElementVisibility.Visible]" FullSelectorArgument="&lt;webctrl parentid='form' tag='A' aaname='Download Invoice' href='/download_invoice/900' innertext='Download Invoice' /&gt;" Guid="6ef2cdc7-070c-4334-95f3-f473b210f277" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Order Placed' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="4e13bd6cb2f0e134c76aa9d0d387c42c.png" xmlns="">0ARrCyyJWw0OJW417bZjSIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

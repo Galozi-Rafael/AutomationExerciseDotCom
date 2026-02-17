@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Download Invoice(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "PniF_fiahEaLTUj9WwJ97A",
+  "Reference": "2OaW6vX7TEyfDjae0oSHpA/PniF_fiahEaLTUj9WwJ97A",
+  "ParentRef": "2OaW6vX7TEyfDjae0oSHpA/HRUnqcT1FkyVEw-8pZeuhQ",
+  "Created": "2026-02-17T21:44:52.3294679Z",
+  "Updated": "2026-02-17T21:44:52.3294679Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

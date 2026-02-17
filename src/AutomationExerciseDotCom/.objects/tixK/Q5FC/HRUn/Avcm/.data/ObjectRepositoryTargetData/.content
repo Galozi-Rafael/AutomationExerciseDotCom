@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="leIDyQjyfEiqubjS234VzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment_done/900" CVScreenId="d1e5c2c9-82b6-4fcb-8b18-0991c2ecc13d" CvElementArea="506, 518, 144, 33" CvTextArea="522, 528, 112, 13" CvTextArgument="Download Invoice" CvType="Button" DesignTimeRectangle="508, 520, 141, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='form' tag='A' /&gt;" Guid="b75582c1-a8b0-41d0-9d64-a0b368e7d8fe" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Order Placed' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a4d0bf334b520277459dbc923968a3ac.png" xmlns="">0XpZinG1MEEiK_wsFH75z5A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

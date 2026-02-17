@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1R_dfdd79Ey1dzduOhilDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="automationexercise.com/payment_done/900" CVScreenId="fecf48e1-ba57-4a7c-8f82-7dfbf02adee7" DesignTimeRectangle="508, 520, 141, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='form' tag='A' aaname='Download Invoice' href='/download_invoice/900' innertext='Download Invoice' /&gt;" Guid="c6993ec8-949c-427a-8fcc-294cd2f73f15" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Exercise - Order Placed' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="62e8f2947977aa7f70f1d2fde56b3021.png" xmlns="">031b4_FKTPEmOXRGBH_lYlw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
